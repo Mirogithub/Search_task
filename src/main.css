@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: #f7fff8;
+  max-width: 1140px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#root{
+  width: 40%;
+  margin: auto;
+  border: 1px solid #ebe8ee;
+  border-radius: 5px;
+  padding: 10px
+}
+
+h1{
+  padding: 20px;
+  text-align: center;
+}
+
+.searchPanel{
+  margin-bottom: 15px;
+}
+
+.searchPanel input{
+  height: 30px;
+  width: 73%;
+  padding-left: 5px;
+  border: 1px solid grey;
+  border-radius: 5px
+}
+
+.searchPanel button{
+  height: 30px;
+  width: 25%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-left: 5px
+}
+
+.found-list{
+  list-style-type: none;
+  padding: 0
+}
+
+.found-list li{
+  margin-bottom: 20px
+}
+
+.found-list a{
+  display: block;
+  margin-bottom: 5px;
+}
