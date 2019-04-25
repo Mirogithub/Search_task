@@ -23,7 +23,7 @@ export default class SearchPanel extends React.Component{
   render(){
     return(
       <form className="searchPanel" onSubmit={this.onSubmitForm}>
-        <input placeholder= "search" onChange={this.onSearchChange}/>
+        <input placeholder= "search" onChange={this.onSearchChange} value={this.state.word} />
         <button className="btn-search" >
           Search
         </button>
