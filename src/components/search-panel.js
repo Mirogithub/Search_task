@@ -7,7 +7,7 @@ export default class SearchPanel extends React.Component{
   };
 
   onSearchChange = (event) =>{
-    console.log(event.target.value)
+    // console.log(event.target.value)
     this.setState({
       word: event.target.value
     })
