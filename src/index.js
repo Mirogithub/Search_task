@@ -28,7 +28,7 @@ export default class App extends React.Component{
   searchItems=({itemsList, word})=>{
     if (word==='') {return itemsList=[]}
     return itemsList.filter((item)=>{
-      return item.name.indexOf(word)>-1;
+      return item.name.toLowerCase().indexOf(word.toLowerCase())>-1;
     })
   }
 
