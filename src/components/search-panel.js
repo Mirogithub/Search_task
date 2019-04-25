@@ -15,10 +15,7 @@ export default class SearchPanel extends React.Component{
 
   onSubmitForm= (event)=>{
     event.preventDefault();
-    // console.log('TEXT:', this.state.word)
-    this.setState({
-      word: event.target.value
-    })
+    console.log(this.state.word)
     this.props.findItem(this.state.word);
   }
 
@@ -33,4 +30,5 @@ export default class SearchPanel extends React.Component{
       </form>
     )
   }
+
 }
